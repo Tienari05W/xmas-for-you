@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merry XMas</title>
+
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/script.js"></script>
+</head>
+<body>
+    <!-- MÀN 1: LOGIN -->
+<div id="login-screen" class="screen">
+  <div class="xmas-bg">
+
+    <div class="snow snow1"></div>
+    <div class="snow snow2"></div>
+    <div class="snow snow3"></div>
+
+    <form id="loginForm" class="login-box text-center">
+      <input type="text" id="fullname" class="form-control mb-2" placeholder="Họ và tên">
+      <div id="errName" class="text-danger mb-2"></div>
+
+      <input type="password" id="password" class="form-control mb-2" placeholder="Mật khẩu">
+      <div id="errPass" class="text-danger mb-2"></div>
+
+      <button class="play-btn" type="submit">PLAY</button>
+    </form>
+
+  </div>
+</div>
+
+    <!-- MÀN 2: TREE -->
+<div id="tree-screen" class="screen">
+  <div class="tree-bg">
+    <div class="snow snow1"></div>
+    <div class="snow snow2"></div>
+    <div class="snow snow3"></div>
+    <img src="../img/bell.png" class="bell">
+    
+    <img src="../img/tree1.png" class="tree" id="tree">
+
+    
+    <img src="../img/santa.png" class="santa">
+
+    <div id="santa-speech" class="speech">
+    <img src="../img/bubble.png" class="bubble">
+    <div class="speech-text">
+      HOHO BÉ<br>
+      CLICK VÀO<br>
+      CÂY THÔNG ĐI
+    </div>
+  </div>
+
+    
+    <div id="typingText" class="typing-text"></div>
+
+   
+    <img src="../img/gift.png" class="gift" id="gift">
+
+    <!-- pháo hoa -->
+    <canvas id="fireworks"></canvas>
+    
+  </div>
+
+   <!-- thư -->
+    <div id="letter" class="letter">
+    <img src="../img/letter.png" class="letter-img">
+    <div id="letterText" class="letter-text"></div>
+    <button id="continueBtn" class="continue-btn">
+    CONTINUE
+  </button>
+</div>
+
+    <div id="finalScene">
+  <div id="stars"></div>
+
+  <div id="finalText"></div>
+
+  <div id="loveForever">💗 Yêu em rất nhiều 💗</div>
+</div>
+
+    <div id="loveOutside" class="love-outside">
+    ❤️ Yêu em ❤️
+    </div>
+
+    <div id="loveModal" class="love-modal">
+    <div class="modal-box">
+    <h3>Em có thích món quà này không?💗</h3>
+    
+
+    <div class="modal-actions">
+      <button id="yesBtn" class="yes-btn">YES</button>
+      <button id="noBtn" class="no-btn">NO</button>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<audio id="bg-music" loop>
+    <source src="../music/christmas.mp3" type="audio/mpeg">
+  </audio>
+
+<audio id="fireSound">
+    <source src="../music/firework.mp3" type="audio/mpeg">
+</audio>
+
+
+<div id="nightOverlay"></div>
+
+
+<div id="starSky"></div>
+</body>
+</html>
