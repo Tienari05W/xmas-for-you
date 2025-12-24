@@ -203,17 +203,18 @@ $(document).ready(function () {
   }
   const letterMessage = ` Merry Christmas Phương Trang! 
 Biết sao mấy nay chị bận chưa, chị làm món quà này tặng cho em đó.
-Chúc em giáng sinh vui vẻ, thật là hạnh phúc, luôn may mắn.
+Chúc em giáng sinh vui vẻ, thật là hạnh phúc, luôn gặp nhiều may mắn.
 
 Chưa có cơ hội gặp em, nên chị chỉ có thể làm quà như này thôi,
-chị hy vọng em sẽ thích và có thể làm em cười.
+chị hy vọng em sẽ thích và nó có thể làm em cười.
 
 Chị cảm ơn em rất nhiều, chưa thấy ai có phước như chị năm nay gặp đủ thứ chuyện hết trơn.
 Tưởng không vui vẻ lại được luôn, nhưng mà vô tình một cô bé đáng iu, xinh đẹp như em lại xuất hiện.
+Giáng sinh này chị không cần quà nữa, vì em món quà tuyệt vời nhất đối với chị.
 
 Chúc mọi điều tốt đẹp nhất sẽ đến với em.
 Đừng có thức khuya nữa nha, bác sĩ cũng có thể bị bệnh đó.
-Và chị mong là sắp tới mình sẽ có cơ hội gặp nhau và chị có thể yêu em nhiều hơn nữa.
+Và chị mong là sắp tới mình sẽ có cơ hội gặp nhau, được bên em và yêu em nhiều hơn nữa.
 
 Giáng sinh an lành!
 
@@ -447,3 +448,4 @@ Giáng sinh an lành!
   });
 
 });
+
